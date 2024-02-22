@@ -1,0 +1,22 @@
+{
+  "username": "Admin",
+  "password": "admin123",
+  "textarea": "Hello",
+  "eventname": "PracticeSession",
+  "expensename": "PracticeSession",
+  "type": "CAN - Personal",
+  "date": "2",
+  "month": "November",
+  "year": "2001",
+  "todate": "5",
+  "tomonth": "November",
+  "toyear": "2002",
+  "status": "Cancelled",
+  "employeeName": "Orange  Test",
+  "subUnit": "Engineering",
+  "leavereport": "CAN - Bereavement",
+  "location": "Canadian Regional HQ",
+  "jobTitle": " jobs in rbg tech",
+  "partialday": "All Days",
+  "duration": "Half Day - Morning"
+}
