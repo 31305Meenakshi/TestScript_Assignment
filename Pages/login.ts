@@ -23,25 +23,25 @@ export class LoginPage {
       'div[class$="orangehrm-demo-credentials"]>p:nth-child(2)'
     );
 
-    // this.pause = page.pause();
-    //  this.logout1 = page.locator('li[class="oxd-userdropdown"]');
-    //  this.logoutbtn = page.locator('a[href="/web/index.php/auth/logout"]');
-    // this.dashboard = page.locator("a[href='/web/index.php/dashboard/index']");
+    this.pause = page.pause();
+     this.logout1 = page.locator('li[class="oxd-userdropdown"]');
+     this.logoutbtn = page.locator('a[href="/web/index.php/auth/logout"]');
+    this.dashboard = page.locator("a[href='/web/index.php/dashboard/index']");
   }
 
   async login(username, password) {
-    // expect(this.assertUsername).toHaveText("Username : " + username);
+     expect(this.assertUsername).toHaveText("Username : " + username);
     await this.username_textbox.fill(username);
-    // expect(this.assertPassword).toHaveText("Password : " + password);
+     expect(this.assertPassword).toHaveText("Password : " + password);
     await this.password_textbox.fill(password);
-    //   expect(this.login_button).toHaveText(" Login ");
+      expect(this.login_button).toHaveText(" Login ");
     await this.login_button.click();
     //  await this.pause;
     //await this.dashboard.click();
   }
 
-  //   async logout() {
-  //     await this.logout1.click();
-  //     await this.logoutbtn.click();
-  //   }
+    async logout() {
+      await this.logout1.click();
+      await this.logoutbtn.click();
+    }
 }
